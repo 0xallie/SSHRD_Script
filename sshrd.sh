@@ -8,7 +8,7 @@ oscheck=$(uname)
 ERR_HANDLER () {
     [ $? -eq 0 ] && exit
     echo "[-] An error occurred"
-    rm -rf work
+    #rm -rf work
 
    # echo "[-] Uploading logs. If this fails, it's not a big deal."
    # for file in *.log; do
