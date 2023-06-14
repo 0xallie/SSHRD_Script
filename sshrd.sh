@@ -261,6 +261,6 @@ rm -rf work
 # echo "[*] Done uploading logs!"
 
 echo ""
-echo "[*] Finished! Please use ./sshrd.sh boot to boot your device"
+echo "[*] Finished!"
 
 # } | tee "$(date +%T)"-"$(date +%F)"-"$(uname)"-"$(uname -r)".log
